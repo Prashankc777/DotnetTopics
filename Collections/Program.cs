@@ -117,6 +117,7 @@ class EmplyeeCollectionProgram
 
         // This is how we can use IEnumerator to iterate through the collection
         IEnumerator enumerator = arrayList.GetEnumerator();
+
         enumerator.MoveNext(); // move to next element in the collection
 
         while (enumerator.MoveNext())
